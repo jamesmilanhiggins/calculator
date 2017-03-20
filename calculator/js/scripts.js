@@ -8,13 +8,15 @@
 
 
 
-var temp = function(number1) {
-	return (number1 -32) /1.8;
+var bmi = function(height, weight) {
+	return weight / (height * height);
 };
 
-var number1 = parseInt(prompt("Enter a temperature in fahrenheit:"));
+var height = parseFloat(prompt("Enter your height in m:"));
+var weight = parseFloat(prompt("Enter your weight in kg:"));
 
-alert(temp(number1));
+
+alert(bmi(height,weight));
 
 
 
