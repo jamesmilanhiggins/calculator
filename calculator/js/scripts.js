@@ -1,22 +1,22 @@
-// var temp = function(number1) {
-// 	return number1 * 1.8 +32;
-// };
-//
-// var number1 = parseInt(prompt("Enter a temperature in celcius:"));
-//
-// alert(temp(number1));
-
-
-
-var bmi = function(height, weight) {
-	return weight / (height * height);
+var gall = function(number1) {
+	return number1 * 3.78541;
 };
 
-var height = parseFloat(prompt("Enter your height in m:"));
-var weight = parseFloat(prompt("Enter your weight in kg:"));
+var number1 = parseFloat(prompt("Enter gallons:"));
+
+alert(gall(number1));
 
 
-alert(bmi(height,weight));
+
+// var bmi = function(height, weight) {
+// 	return weight / (height * height);
+// };
+//
+// var height = parseFloat(prompt("Enter your height in m:"));
+// var weight = parseFloat(prompt("Enter your weight in kg:"));
+//
+//
+// alert(bmi(height,weight));
 
 
 
